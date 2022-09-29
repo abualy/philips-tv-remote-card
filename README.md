@@ -1,2 +1,2 @@
-# philips-remote-hacs
-philips tv remote card for for home assistant 
+# Philips TV remote HACS
+philips TV remote card for for home assistant 
