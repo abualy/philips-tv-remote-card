@@ -1,4 +1,4 @@
-# Philips TV remote HACS
+# Philips TV remote card
 Philips TV remote card for home assistant 
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-green.svg)](https://hacs.xyz/docs/faq/custom_repositories/)
@@ -14,9 +14,9 @@ the project is based on the amazing work done by [madmicio](https://github.com/m
 
 ## Requirements
 
- `philips_js` integration: the remote and media player entites are are created by this integration (you can find it [here](https://www.home-assistant.io/integrations/philips_js/)) 
+ `philips_js` integration: the remote and media player entities are are created by this integration (you can find it [here](https://www.home-assistant.io/integrations/philips_js/)) 
 
-if you wanna use channels:
+if you want to use channels:
 - `card-channel-pad` is required (you can find it [here](https://github.com/madmicio/channel-pad))
 
 - `browser_mod` is required for this channel panel (you can find it [here](https://github.com/thomasloven/hass-browser_mod))
@@ -33,7 +33,7 @@ follow [custom repository](https://hacs.xyz/docs/faq/custom_repositories/) setup
 
 ### Manual install
 
-1. Download and copy `philips-tv-remote.js` from (https://github.com/abualy/philips-tv-remote-hacs) into your custom components  directory.
+1. Download and copy `philips-tv-remote.js` from (https://github.com/abualy/philips-tv-remote-card) into your custom components  directory.
 
 2. Add a reference `philips-tv-remote.js` inside your resources config ( you can find it under https://HOME_ASSISTANT_URL/config/lovelace/resources ):
 
