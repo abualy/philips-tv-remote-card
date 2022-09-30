@@ -1,0 +1,6 @@
+{
+    "name": "Philips TV Remote",
+    "content_in_root": true,
+    "filename": "philips-tv-remote.js",
+    "render_readme" : true
+}
