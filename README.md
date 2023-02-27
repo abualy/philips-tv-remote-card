@@ -1,22 +1,24 @@
 # Philips TV remote card
 Philips TV remote card for home assistant 
 
-[![hacs_badge](https://img.shields.io/badge/HACS-Custom-green.svg)](https://hacs.xyz/docs/faq/custom_repositories/)
+[![hacs_badge](https://img.shields.io/badge/HACS-Default-41BDF5.svg?style=for-the-badge)](https://github.com/hacs/integration)
+
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=abualy&repository=philips-tv-remote-card&category=plugin)
+
+[![hacs_badge](https://img.shields.io/github/v/release/abualy/philips-tv-remote-card?color=green&style=for-the-badge)](https://github.com/abualy/philips-tv-remote-card/releases/latest)
+
 
 the project is based on the amazing work done by [madmicio](https://github.com/madmicio) in the [LG WebOS Remote](https://github.com/madmicio/LG-WebOS-Remote-Control) and basically adapted from it to work for Philips TVs
 
+![TV Remote](/img/remote.png)
 
-<p align="center">
-  <img src="img/remote.png" alt="TV Remote"/>
-  </br></br>
-  <img src="img/channels.png" alt="TV Channels"/>
-</p>
+![TV Channels](/img/channels.png)
 
 ## Requirements
 
- `philips_js` integration: the remote and media player entities are are created by this integration (you can find it [here](https://www.home-assistant.io/integrations/philips_js/)) 
+ `philips_js` integration: the remote and media player entites are are created by this integration (you can find it [here](https://www.home-assistant.io/integrations/philips_js/)) 
 
-if you want to use channels:
+if you wanna use channels:
 - `card-channel-pad` is required (you can find it [here](https://github.com/madmicio/channel-pad))
 
 - `browser_mod` is required for this channel panel (you can find it [here](https://github.com/thomasloven/hass-browser_mod))
@@ -25,15 +27,24 @@ if you want to use channels:
 
 
 ## Install
+### using **my** integration:
+
+you can start from here:
+
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=abualy&repository=philips-tv-remote-card&category=plugin)
 
 ### HACS Card install
-
-follow [custom repository](https://hacs.xyz/docs/faq/custom_repositories/) setup in HACS
+- Open HACS
+- Go to "Frontend" section
+- Click button with "+" icon
+- Search for "Philips TV Remote"
+- Install repository in HACS
+- Refresh your browser
 
 
 ### Manual install
 
-1. Download and copy `philips-tv-remote.js` from (https://github.com/abualy/philips-tv-remote-card) into your custom components  directory.
+1. Download and copy `philips-tv-remote.js` from (https://github.com/abualy/philips-tv-remote-hacs) into your custom components  directory.
 
 2. Add a reference `philips-tv-remote.js` inside your resources config ( you can find it under https://HOME_ASSISTANT_URL/config/lovelace/resources ):
 
