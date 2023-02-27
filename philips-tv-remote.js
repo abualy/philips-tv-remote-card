@@ -107,7 +107,7 @@ class philipsTvRemote extends LitElement {
                       <div class="grid-container-source">
                       ${this.config.sources.map(source => {
                       return html`
-                        <button class="btn_source ripple" @click=${() => this._select_source(source.url)}>
+                        <button class="btn_source ripple" @click=${() => this._select_app(source.url)}>
                             <ha-icon style="height: 70%; width: 70%;" icon="${source.icon}"/>
                         </button>
                       `;
